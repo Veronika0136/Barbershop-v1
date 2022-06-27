@@ -20,10 +20,10 @@
       </a>
       <nav class="header-nav">
         <ul class="header-list">
-          <li class="header-item"><a class="header-link" href="">О нас</a></li>
-          <li class="header-item"><a class="header-link" href="">Услуги и цены</a></li>
+          <li class="header-item"><a class="header-link" href="#about">О нас</a></li>
+          <li class="header-item"><a class="header-link" href="#price">Услуги и цены</a></li>
           <li class="header-item"><a class="header-link" href="">Мастера</a></li>
-          <li class="header-item"><a class="header-link" href="">Контакты</a></li>
+          <li class="header-item"><a class="header-link" href="#contacts">Контакты</a></li>
         </ul>
       </nav>
       <a class="header-phone" href="tel:+380441111111">+38 044 111 11 11</a>
@@ -69,7 +69,7 @@
         </ul>
       </section>
       <!--About section-->
-      <section class="about">
+      <section class="about" id="about">
         <ul class="about-list">
           <li class="about-item">
             <img
@@ -104,7 +104,7 @@
         <button class="about-btn" type="button">онлайн-запись</button>
       </section>
       <!--Price section-->
-      <section class="price">
+      <section class="price" id="price">
         <p class="price-uppertitle">Проведи время в компании лучших мастеров</p>
         <h2 class="section-title">Услуги и цены</h2>
         <ul class="price-list">
@@ -127,24 +127,92 @@
         </ul>
         <button class="price-btn" type="button">онлайн-запись</button>
       </section>
+      <!--Portfolio section-->
+      <section class="portfolio">
+        <p class="portfolio-uppertitle">На латинском языке “барба” означает “борода”</p>
+        <h2 hidden>Портфолио работ</h2>
+        <ul class="portfolio-list">
+          <li class="portfolio-item">
+            <img
+              class="portfolio-img"
+              src="./images/portfolio/gallery1.jpg"
+              alt="Мужчина парикмахер делает стрижку"
+              width="270"
+              height="360"
+            />
+          </li>
+          <li class="portfolio-item">
+            <img
+              class="portfolio-img"
+              src="./images/portfolio/gallery2.jpg"
+              alt="Мужчина наносит пену для бриться сидящему в кресле другому мужчине"
+              width="270"
+              height="360"
+            />
+          </li>
+          <li class="portfolio-item">
+            <img
+              class="portfolio-img"
+              src="./images/portfolio/gallery3.jpg"
+              alt="Мужчина покрывает лицо полотенцем другому мужчине в кресле"
+              width="270"
+              height="360"
+            />
+          </li>
+          <li class="portfolio-item">
+            <img
+              class="portfolio-img"
+              src="./images/portfolio/gallery4.jpg"
+              alt="Парикмахер бреет шею сзади другому мужчине"
+              width="270"
+              height="360"
+            />
+          </li>
+        </ul>
+      </section>
       <!--Contacts section-->
-      <section class="contacts">
+      <section class="contacts" id="contacts">
         <div>
           <h2>Онлайн-запись</h2>
-          <form 
-          <label for="">
-            <input type="text"/>
-          </label> 
-          <label for="">
-            <input type="text"/>
-          </label> 
-          <label for="">
-            <textarea name="" id="" cols="30" rows="10"></textarea>
-          </label>
-          <button type="submit">отправить</button>
+          <form>
+            <label for="">
+              <input type="text" />
+            </label>
+            <label for="">
+              <input type="text" />
+            </label>
+            <label for="">
+              <textarea name="" id="" cols="30" rows="10"></textarea>
+            </label>
+            <button type="submit">отправить</button>
           </form>
         </div>
-        <div></div>
+        <div class="contacts-group">
+          <h2 class="contacts-title">Контакты</h2>
+          <address class="contacts-address">
+            <ul class="contacts-list">
+              <li class="contacts-item">
+                <a
+                  class="contacts-link"
+                  href="https://goo.gl/maps/hBhcbeRyrK7ffvxk8"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >ул. Васильковая, 7А Киев, 08132</a
+                >
+              </li>
+              <li class="contacts-item">
+                <a class="contacts-link" href="tel:++380441111111">+38 044 111 11 11</a>
+              </li>
+              <li class="contacts-item">
+                <a class="contacts-link" href="mailto:barbershop@email.com">barbershop@email.com</a>
+              </li>
+            </ul>
+          </address>
+          <p class="contacts-subtitle">время работы</p>
+          <p class="contacts-time">
+            Ежедневно с <time datetime="09:00">9:00</time> до <time datetime="22:00">22:00</time>
+          </p>
+        </div>
       </section>
     </main>
     <!--Footer section-->
