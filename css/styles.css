@@ -1,0 +1,25 @@
+:root {
+    /* fonts */
+    --main-font:"Open Sans",sans-serif;
+    --secondary-font:"Raleway", sans-serif;    
+
+    /* text colors */
+    --main-txt-cl:#303030;
+    /* bg colors */
+
+    /* others */
+}
+
+body{
+    font-family: var(--main-font);
+    color: var(--main-txt-cl);
+
+}
+/* reset styls */
+.link {
+  text-decoration: none;
+  color: currentColor;
+}
+.list {
+    list-style: none;
+}
