@@ -17,17 +17,15 @@
     <!--Header section-->
     <header class="header">
       <a class="logo link" href="">
-        <img
-          class="logo-img"
-          src="./images/Header/logo.png"
-          alt="Логотип Barbershop"
-          width="69"
-          height="56"
-        />
+        <svg class="logo-svg" width="69px" height="56px">
+          <use href="./images/icons.svg#icon-Logo"></use>
+        </svg>
       </a>
       <nav class="header-nav">
         <ul class="header-list list">
-          <li class="header-item"><a class="header-link link" href="#about">О нас</a></li>
+          <li class="header-item">
+            <a class="header-link link header-link-current" href="#about">О нас</a>
+          </li>
           <li class="header-item"><a class="header-link link" href="#price">Услуги и цены</a></li>
           <li class="header-item"><a class="header-link link" href="">Мастера</a></li>
           <li class="header-item"><a class="header-link link" href="#contacts">Контакты</a></li>
@@ -134,49 +132,6 @@
         </ul>
         <button class="price-btn" type="button">онлайн-запись</button>
       </section>
-      <!--Portfolio section-->
-      <section class="portfolio">
-        <p class="portfolio-uppertitle">На латинском языке “барба” означает “борода”</p>
-        <h2 hidden>Портфолио работ</h2>
-        <ul class="portfolio-list list">
-          <li class="portfolio-item">
-            <img
-              class="portfolio-img"
-              src="./images/portfolio/gallery1.jpg"
-              alt="Мужчина парикмахер делает стрижку"
-              width="270"
-              height="360"
-            />
-          </li>
-          <li class="portfolio-item">
-            <img
-              class="portfolio-img"
-              src="./images/portfolio/gallery2.jpg"
-              alt="Мужчина наносит пену для бриться сидящему в кресле другому мужчине"
-              width="270"
-              height="360"
-            />
-          </li>
-          <li class="portfolio-item">
-            <img
-              class="portfolio-img"
-              src="./images/portfolio/gallery3.jpg"
-              alt="Мужчина покрывает лицо полотенцем другому мужчине в кресле"
-              width="270"
-              height="360"
-            />
-          </li>
-          <li class="portfolio-item">
-            <img
-              class="portfolio-img"
-              src="./images/portfolio/gallery4.jpg"
-              alt="Парикмахер бреет шею сзади другому мужчине"
-              width="270"
-              height="360"
-            />
-          </li>
-        </ul>
-      </section>
       <!--Features section-->
       <section class="features">
         <p>старая традиционная школа</p>
@@ -238,6 +193,49 @@
             />
             <h3>Alan Black</h3>
             <p>Extreme Barber</p>
+          </li>
+        </ul>
+      </section>
+      <!--Portfolio section-->
+      <section class="portfolio">
+        <p class="portfolio-uppertitle">На латинском языке “барба” означает “борода”</p>
+        <h2 hidden>Портфолио работ</h2>
+        <ul class="portfolio-list list">
+          <li class="portfolio-item">
+            <img
+              class="portfolio-img"
+              src="./images/portfolio/gallery1.jpg"
+              alt="Мужчина парикмахер делает стрижку"
+              width="270"
+              height="360"
+            />
+          </li>
+          <li class="portfolio-item">
+            <img
+              class="portfolio-img"
+              src="./images/portfolio/gallery2.jpg"
+              alt="Мужчина наносит пену для бриться сидящему в кресле другому мужчине"
+              width="270"
+              height="360"
+            />
+          </li>
+          <li class="portfolio-item">
+            <img
+              class="portfolio-img"
+              src="./images/portfolio/gallery3.jpg"
+              alt="Мужчина покрывает лицо полотенцем другому мужчине в кресле"
+              width="270"
+              height="360"
+            />
+          </li>
+          <li class="portfolio-item">
+            <img
+              class="portfolio-img"
+              src="./images/portfolio/gallery4.jpg"
+              alt="Парикмахер бреет шею сзади другому мужчине"
+              width="270"
+              height="360"
+            />
           </li>
         </ul>
       </section>
